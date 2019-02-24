@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	 crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+		<title>Quiz Board.</title>
 	</head>
-	<body>
-
-	</body>
-<script src="js/scripts.js"></script>
+	<div class="container">
+		<divclass="jumbotron >
+			<body>
+				<h1 class="jumbotron john">JavaScript Quiz Board</h1>
+				<div style="background-color:lightblue">
+					<p class="ryan">1.What type of a language is JavaScript?</p><br>
+					<form class="jumbotron"id="d1">
+						<input type="radio" name="choice" value="Scripting"> Scripting
+						<input type="radio" name="choice" value="Programming"> Programming
+						<input type="radio" name="choice" value="Application"> Application
+						<input type="radio" name="choice" value="None of These"> None of These
+						<br>
+						<input type="submit" value="submit" onclick="validate(choice.value, 'Scripting', 'd1','a1')">
+					</form>
+				</div>
+			</body>
+			</div>
+		</div>
 </html>
