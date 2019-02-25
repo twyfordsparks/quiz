@@ -1,82 +1,84 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<style>
-			body {
-				   background-color: chartreuse;
-			}
 
-			</style>
-		<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
-		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			crossorigin="anonymous"></script>
-		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<script src="js/scripts.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Chonburi|Open+Sans+Condensed:300|PT+Serif|Playfair+Display"
-	rel="stylesheet">
-		<title>Quiz Board.</title>
-	</head>
-	<div class="container">
-		<div class="jumbotron" >
-			</div>
-			<body>
-				<h1>JavaScript Quiz Board</h1>
-				<div style="background-color:blueviolet">
-					</div>
-					
-					<form id="d1">
-						<div class="erika">
-							<p>1.What type of a language is JavaScript?(20mrks)</p><br>
-							<div class="radio">
-								<input type="radio" name="choice1" value="20"> Scripting
-								<input type="radio" name="choice1" value="0"> Programming
-								<input type="radio" name="choice1" value="0"> Application
-								<input type="radio" name="choice1" value="0"> None of These
-								<br>
-						</div>
-						<div class="purple">
-						<p>2.Select the correct statement.(20mrks)</p><br>
-					
-						<input type="radio" name="choice2" value="0."> JavaScript is used only for web apps
+<head>
+	<style>
+		body {
+			background-color: chartreuse;
+		}
+	</style>
+	<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/scripts.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Chonburi|Open+Sans+Condensed:300|PT+Serif|Playfair+Display" rel="stylesheet">
 
-						<input type="radio" name="choice2" value="0."> JavaScript is a server-side only language
+	<title>Quiz Board.</title>
+</head>
+<div class="container">
+	<div class="jumbotron john">
+		<h1>JavaScript Quiz Board</h1>
+	</div>
 
-						<input type="radio" name="choice2" value="20."> You can use JavaScript to create interactive web elements.
+	<body>
+		<div style="background-color:blueviolet">
+		</div>
 
-						<input type="radio" name="choice2" value="0"> None of These
-						<br>
-						</div>
-						<div class="orange">
-					<p>3.Which tag contains the JavaScript code?(20mrks)</p><br>
-					
-						<input type="radio" name="choice3" value="0."> script
-						<input type="radio" name="choice3" value="0."> code
-						<input type="radio" name="choice3" value="0."> body
-						<input type="radio" name="choice3" value="20"> style
-						<br>
-						</div>
-						<div class="pink">
-					<p>4.Where is the "script" tag typically placed?(20mrks)</p><br>
-				
-						<input type="radio" name="choice4" value="0."> Before the HTML tag.
-						<input type="radio" name="choice4" value="0"> After the closing HTML tag.
-						<input type="radio" name="choice4" value="20"> Inside the Head tag.
-						<input type="radio" name="choice4" value="0."> None of the above.
-						<br>
-						</div>
-						<div class="red">
-					<p>5.Which one of the following is not a data type?(20mrks)</p><br>
-					
-						<input type="radio" name="choice5" value="20."> Integer.
-						<input type="radio" name="choice5" value="0."> Boolean.
-						<input type="radio" name="choice5" value="0."> Strings.
-						<input type="radio" name="choice5" value="0."> Undefined.
-						<br>
-						</div>
-						<input type="submit" value="submit">
-					</form>
-					<div id="output"></div>
-					<div id="output2"></div>
+		<form id="d1">
+			<div class="erika">
+				<p>1.What type of a language is JavaScript?(20mrks)</p><br>
+				<div class="radio">
+					<input type="radio" name="choice1" value="20"> Scripting
+					<input type="radio" name="choice1" value="0"> Programming
+					<input type="radio" name="choice1" value="0"> Application
+					<input type="radio" name="choice1" value="0"> None of These
+					<br>
 				</div>
-			</body>
+				<div class="purple">
+					<p>2.Select the correct statement.(20mrks)</p><br>
+
+					<input type="radio" name="choice2" value="0."> JavaScript is used only for web apps
+
+					<input type="radio" name="choice2" value="0."> JavaScript is a server-side only language
+
+					<input type="radio" name="choice2" value="20."> You can use JavaScript to create interactive web elements.
+
+					<input type="radio" name="choice2" value="0"> None of These
+					<br>
+				</div>
+				<div class="orange">
+					<p>3.Which tag contains the JavaScript code?(20mrks)</p><br>
+
+					<input type="radio" name="choice3" value="0."> script
+					<input type="radio" name="choice3" value="0."> code
+					<input type="radio" name="choice3" value="0."> body
+					<input type="radio" name="choice3" value="20"> style
+					<br>
+				</div>
+				<div class="pink">
+					<p>4.Where is the "script" tag typically placed?(20mrks)</p><br>
+
+					<input type="radio" name="choice4" value="0."> Before the HTML tag.
+					<input type="radio" name="choice4" value="0"> After the closing HTML tag.
+					<input type="radio" name="choice4" value="20"> Inside the Head tag.
+					<input type="radio" name="choice4" value="0."> None of the above.
+					<br>
+				</div>
+				<div class="red">
+					<p>5.Which one of the following is not a data type?(20mrks)</p><br>
+
+					<input type="radio" name="choice5" value="20."> Integer.
+					<input type="radio" name="choice5" value="0."> Boolean.
+					<input type="radio" name="choice5" value="0."> Strings.
+					<input type="radio" name="choice5" value="0."> Undefined.
+					<br>
+				</div>
+				<input type="submit" value="submit">
+		</form>
+		<div id="output"></div>
+		<div id="output2"></div>
+</div>
+</body>
+
 </html>
