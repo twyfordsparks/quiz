@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<style>
+			body {
+				   background-color: chartreuse;
+			}
+
+			</style>
 		<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 	link href="https://fonts.googleapis.com/css?family=Chonburi|Open+Sans+Condensed:300|PT+Serif|Playfair+Display"
@@ -11,7 +17,7 @@
 		<divclass="jumbotron >
 			<body>
 				<h1 class="jumbotron john">JavaScript Quiz Board</h1>
-				<div style="background-color:lightblue">
+				<div style="background-color:rgb(177, 173, 230)">
 					<p class="ryan">1.What type of a language is JavaScript?(5mrks)</p><br>
 					<form class="jumbotron"id="d1">
 						<input type="radio" name="choice" value="Scripting"> Scripting
@@ -28,7 +34,7 @@
 						<input type="radio" name="choice" value="You can use JavaScript to create interactive web elements."> You can use JavaScript to create interactive web elements.
 						<input type="radio" name="choice" value="None of These"> None of These
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'You can use JavaScript to create interactive web elements.', 'd1','a1')">
+						<input type="submit" value="submit" onclick="validate(choice.value, 'You can use JavaScript to create interactive web elements.', 'd2','a2')">
 					</form>
 					<p class="grace">3.Which tag contains the JavaScript code?(5mrks)</p><br>
 					<form class="jumbotron" id="d3">
@@ -37,16 +43,25 @@
 						<input type="radio" name="choice" value="body."> body
 						<input type="radio" name="choice" value="style"> style
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'style.', 'd1','a1')">
+						<input type="submit" value="submit" onclick="validate(choice.value, 'style.', 'd3','a3')">
 					</form>
-					<p class="tropical">4.Which tag contains the JavaScript code?(5mrks)</p><br>
+					<p class="tropical">4.Where is the "script" tag typically placed?(5mrks)</p><br>
 					<form class="jumbotron" id="d4">
-						<input type="radio" name="choice" value="script."> script
-						<input type="radio" name="choice" value="code."> code
-						<input type="radio" name="choice" value="body."> body
-						<input type="radio" name="choice" value="style"> style
+						<input type="radio" name="choice" value="Before the HTML tag."> Before the HTML tag.
+						<input type="radio" name="choice" value="After the closing HTML tag."> After the closing HTML tag.
+						<input type="radio" name="choice" value="Inside the Head tag."> Inside the Head tag.
+						<input type="radio" name="choice" value="None of the above.">None of the above.
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'style.', 'd1','a1')">
+						<input type="submit" value="submit" onclick="validate(choice.value, 'Inside the Head tag.', 'd4','a4')">
+					</form>
+					<p class="tropical">5.Where is the "script" tag typically placed?(5mrks)</p><br>
+					<form class="jumbotron" id="d5">
+						<input type="radio" name="choice" value="Before the HTML tag."> Before the HTML tag.
+						<input type="radio" name="choice" value="After the closing HTML tag."> After the closing HTML tag.
+						<input type="radio" name="choice" value="Inside the Head tag."> Inside the Head tag.
+						<input type="radio" name="choice" value="None of the above.">None of the above.
+						<br>
+						<input type="submit" value="submit" onclick="validate(choice.value, 'Inside the Head tag.', 'd5','a5')">
 					</form>
 				</div>
 			</body>
