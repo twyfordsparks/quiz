@@ -13,21 +13,8 @@ h1 {
     background: rgba(0, 200, 43, 0.863);
     color: rgba(0, 0, 200, 0.6);
 }
-.ryan {
-    font-family: 'PT Serif',
-    serif;
-    font-size: 30px;
-}
-.erika {
-    font-family: 'Playfair Display',
-    serif;
-    font-size: 30px;
-}
-.grace {
-    font-family: 'Open Sans Condensed',
-    sans-serif;
-    font-size: 30px;
-}
+
+
 .tropical {
     font-family: 'Chonburi',
     cursive;

@@ -10,7 +10,7 @@ This is a Quiz Board Test.It was a test ment for students who had recently been 
 ## Known Bugs
 There are no issues or bugs encountered yet while coming up with the programme but incase of anything,feel free to contact the devoloper through johnvictor0002@gmail.com.
 ## Technologies Used
-The input box was made using HTML and Improved using javascript through which the main function works.A little CSS was used to style up the website a bit.There wa also basic use of jquery and javascript.
+The input box was made using HTML and Improved using javascript through which the main function works.A little CSS and Bootsrap was used to style up the website a bit.There wa also basic use of jquery and javascript.
 ## Support and contact details
 Incase you want to use the programme and you dont know where to start or what to do,feel free to contact the developer and be sure to receive help as much as you would need.You can do so through johnvictor0002@gmail.com.
 ### License

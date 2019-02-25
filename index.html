@@ -8,63 +8,75 @@
 
 			</style>
 		<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-	link href="https://fonts.googleapis.com/css?family=Chonburi|Open+Sans+Condensed:300|PT+Serif|Playfair+Display"
+		<script src="js/scripts.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Chonburi|Open+Sans+Condensed:300|PT+Serif|Playfair+Display"
 	rel="stylesheet">
 		<title>Quiz Board.</title>
 	</head>
 	<div class="container">
-		<divclass="jumbotron >
+		<div class="jumbotron" >
+			</div>
 			<body>
-				<h1 class="jumbotron john">JavaScript Quiz Board</h1>
-				<div style="background-color:rgb(177, 173, 230)">
-					<p class="ryan">1.What type of a language is JavaScript?(5mrks)</p><br>
-					<form class="jumbotron"id="d1">
-						<input type="radio" name="choice" value="Scripting"> Scripting
-						<input type="radio" name="choice" value="Programming"> Programming
-						<input type="radio" name="choice" value="Application"> Application
-						<input type="radio" name="choice" value="None of These"> None of These
+				<h1>JavaScript Quiz Board</h1>
+				<div style="background-color:blueviolet">
+					</div>
+					
+					<form id="d1">
+						<div class="erika">
+							<p>1.What type of a language is JavaScript?(20mrks)</p><br>
+							<div class="radio">
+								<input type="radio" name="choice1" value="20"> Scripting
+								<input type="radio" name="choice1" value="0"> Programming
+								<input type="radio" name="choice1" value="0"> Application
+								<input type="radio" name="choice1" value="0"> None of These
+								<br>
+						</div>
+						<div class="purple">
+						<p>2.Select the correct statement.(20mrks)</p><br>
+					
+						<input type="radio" name="choice2" value="0."> JavaScript is used only for web apps
+
+						<input type="radio" name="choice2" value="0."> JavaScript is a server-side only language
+
+						<input type="radio" name="choice2" value="20."> You can use JavaScript to create interactive web elements.
+
+						<input type="radio" name="choice2" value="0"> None of These
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'Scripting', 'd1','a1')">
-					</form>
-					<p class="erika">2.Select the correct statement.(20mrks)</p><br>
-					<form class="jumbotron" id="d2">
-						<input type="radio" name="choice" value="JavaScript is used only for web apps."> JavaScript is used only for web apps
-						<input type="radio" name="choice" value="JavaScript is a server-side only language."> JavaScript is a server-side only language
-						<input type="radio" name="choice" value="You can use JavaScript to create interactive web elements."> You can use JavaScript to create interactive web elements.
-						<input type="radio" name="choice" value="None of These"> None of These
+						</div>
+						<div class="orange">
+					<p>3.Which tag contains the JavaScript code?(20mrks)</p><br>
+					
+						<input type="radio" name="choice3" value="0."> script
+						<input type="radio" name="choice3" value="0."> code
+						<input type="radio" name="choice3" value="0."> body
+						<input type="radio" name="choice3" value="20"> style
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'You can use JavaScript to create interactive web elements.', 'd2','a2')">
-					</form>
-					<p class="grace">3.Which tag contains the JavaScript code?(20mrks)</p><br>
-					<form class="jumbotron" id="d3">
-						<input type="radio" name="choice" value="script."> script
-						<input type="radio" name="choice" value="code."> code
-						<input type="radio" name="choice" value="body."> body
-						<input type="radio" name="choice" value="style"> style
+						</div>
+						<div class="pink">
+					<p>4.Where is the "script" tag typically placed?(20mrks)</p><br>
+				
+						<input type="radio" name="choice4" value="0."> Before the HTML tag.
+						<input type="radio" name="choice4" value="0"> After the closing HTML tag.
+						<input type="radio" name="choice4" value="20"> Inside the Head tag.
+						<input type="radio" name="choice4" value="0."> None of the above.
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'style.', 'd3','a3')">
-					</form>
-					<p class="tropical">4.Where is the "script" tag typically placed?(20mrks)</p><br>
-					<form class="jumbotron" id="d4">
-						<input type="radio" name="choice" value="Before the HTML tag."> Before the HTML tag.
-						<input type="radio" name="choice" value="After the closing HTML tag."> After the closing HTML tag.
-						<input type="radio" name="choice" value="Inside the Head tag."> Inside the Head tag.
-						<input type="radio" name="choice" value="None of the above.">None of the above.
+						</div>
+						<div class="red">
+					<p>5.Which one of the following is not a data type?(20mrks)</p><br>
+					
+						<input type="radio" name="choice5" value="20."> Integer.
+						<input type="radio" name="choice5" value="0."> Boolean.
+						<input type="radio" name="choice5" value="0."> Strings.
+						<input type="radio" name="choice5" value="0."> Undefined.
 						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'Inside the Head tag.', 'd4','a4')">
+						</div>
+						<input type="submit" value="submit">
 					</form>
-					<p class="tropical">5.Where is the "script" tag typically placed?(20mrks)</p><br>
-					<form class="jumbotron" id="d5">
-						<input type="radio" name="choice" value="Before the HTML tag."> Before the HTML tag.
-						<input type="radio" name="choice" value="After the closing HTML tag."> After the closing HTML tag.
-						<input type="radio" name="choice" value="Inside the Head tag."> Inside the Head tag.
-						<input type="radio" name="choice" value="None of the above.">None of the above.
-						<br>
-						<input type="submit" value="submit" onclick="validate(choice.value, 'Inside the Head tag.', 'd5','a5')">
-					</form>
+					<div id="output"></div>
+					<div id="output2"></div>
 				</div>
 			</body>
-			</div>
-		</div>
 </html>
