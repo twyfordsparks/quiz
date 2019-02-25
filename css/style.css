@@ -1,6 +1,6 @@
 h1 {
-    font-family: 'Open Sans Condensed',
-    sans-serif;
+    font-family: 'Abril Fatface',
+    cursive;
     text-align: center;
 }
 .john {
@@ -21,7 +21,37 @@ h1 {
     font-size: 30px;
 
 }
-.erika {
+.red {
     font-family: 'PT Serif',
     serif;
+    background-color: yellowgreen;
+    font-family: 'Playfair Display',
+    serif;
+    font-size: 20px;
 }
+.purple {
+    font-family: 'Playfair Display',
+    serif;
+    background-color: lightblue;
+    font-size :20px; 
+}
+.pink {
+    font-family: 'Playfair Display',
+    serif;
+    font-size: 20px;
+    background-color: lightblue;
+}
+.orange {
+    font-family: 'Playfair Display',
+    serif;
+    font-size: 20px;
+    background-color:yellowgreen ;
+}
+.id {
+    text-align: center;
+    background-color: palegreen;
+    font-size: 20px;
+    font-family: font-family: 'PT Serif',
+    serif;
+}
+
