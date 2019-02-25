@@ -6,7 +6,7 @@ This is a Quiz Board Test.It was a test ment for students who had recently been 
 ## Setup/Installation Requirements
 * A secure working internet connection.
 * A laptop or a desktop or any device you can use to access the internet
-* A link to the website's programme which you will be recieving shortly.[link]()
+* A link to the website's programme which you will be recieving shortly.[link](https://twyfordsparks.github.io/quiz/)
 ## Known Bugs
 There are no issues or bugs encountered yet while coming up with the programme but incase of anything,feel free to contact the devoloper through johnvictor0002@gmail.com.
 ## Technologies Used
